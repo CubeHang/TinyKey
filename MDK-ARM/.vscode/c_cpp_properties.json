@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "TinyKey",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/../Core/Inc",
+        "${workspaceFolder}/../USB_DEVICE/App",
+        "${workspaceFolder}/../USB_DEVICE/Target",
+        "${workspaceFolder}/../Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/../Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+        "${workspaceFolder}/../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc",
+        "${workspaceFolder}/../Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/../Drivers/CMSIS/Include",
+        "${workspaceFolder}/.cmsis/include",
+        "${workspaceFolder}/RTE/_TinyKey",
+        "D:/Keil5/ARM/ARMCLANG/include",
+        "D:/Keil5/ARM/ARMCC/include"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F103xB"
+      ],
+      "compilerPath": "D:/Keil5/ARM/ARMCLANG/bin/armclang.exe",
+      "cStandard": "c99",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "clang-arm",
+      "compileCommands": "${workspaceFolder}/build/TinyKey/compile_commands.json"
+    }
+  ]
+}
